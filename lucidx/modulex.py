@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 # Author: Alex a.k.a. VritraSec
 # Project: LucidX — AI-Powered Image Synth Engine
-# GitHub: https://github.com/VritraSecz
+# GitHub: https://github.com/MrHacker-X
 
-from core.colors import *
+from .colors import *
 import re, os, time, json
 from pathlib import Path
 
@@ -111,7 +111,7 @@ def lucid_connect():
     print(f"{GREEN}│ {GREEN}• {WHITE}YouTube      : {GRAY}@Technolex                   │")
     print(f"{GREEN}│ {GREEN}• {WHITE}Telegram     : {GRAY}@LinkCentralX (Channel)      │")
     print(f"{GREEN}│ {GREEN}• {WHITE}Support Bot  : {GRAY}@ethicxbot                   │")
-    print(f"{GREEN}│ {GREEN}• {WHITE}GitHub       : {GRAY}github.com/VritraSecz        │")
+    print(f"{GREEN}│ {GREEN}• {WHITE}GitHub       : {GRAY}github.com/MrHacker-X        │")
     print(f"{GRAY}└───────────────────────────────────────────────┘")
     print()
     input(f"{WHITE}Press {GREEN}Enter{WHITE} to return to main menu...")
@@ -158,7 +158,7 @@ def lucid_help():
     print(f"{GREEN}│ {GREEN}• {WHITE}Reporting Issues                                           {GRAY}│")
     print(f"{GREEN}│{GRAY}   If you face any bug, glitch, or unexpected behavior,       {GRAY}│")
     print(f"{GREEN}│{GRAY}   kindly report it on the official GitHub repo below.        {GRAY}│")
-    print(f"{GREEN}│ {WHITE}  → {QUOTE_BLUE}https://github.com/VritraSecz/LucidX                     {GRAY}│")
+    print(f"{GREEN}│ {WHITE}  → {QUOTE_BLUE}https://github.com/MrHacker-X/LucidX                     {GRAY}│")
     print(f"{GRAY}└──────────────────────────────────────────────────────────────┘")
     print()
     print()

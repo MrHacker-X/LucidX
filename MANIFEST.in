@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+include UPGRADE_NOTES.md
+include requirements.txt
+include lucidx.py
+
+global-exclude *.py[cod]
+global-exclude __pycache__
+global-exclude .DS_Store

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Author: Alex a.k.a. VritraSec
 # Project: LucidX — AI-Powered Image Synth Engine
-# GitHub: https://github.com/VritraSecz
+# GitHub: https://github.com/MrHacker-X
 
 from colorama import Fore, Style, init
 

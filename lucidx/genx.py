@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 # Author: Alex a.k.a. VritraSec
 # Project: LucidX — AI-Powered Image Synth Engine
-# GitHub: https://github.com/VritraSecz
+# GitHub: https://github.com/MrHacker-X
 
 from datetime import datetime
 from time import sleep
 from pathlib import Path
 import requests
 import signal
-from core.colors import *
+from .colors import *
 import os
 import json
-from core.banr import *
+from .banr import *
 
 LAST_STYLE_FILE = "last_style.txt"
 LOG_FILE = "generation_log.txt"
@@ -102,7 +102,7 @@ def get_api_key():
 def generate_image(prompt, output_path, seed, steps, style):
     from datetime import datetime
     import requests
-    from core.colors import GRAY, RED, RESET, QUOTE_BLUE
+    from .colors import GRAY, RED, RESET, QUOTE_BLUE
 
     # Get API key from global config
     API = get_api_key()

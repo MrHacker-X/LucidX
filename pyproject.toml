@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lucidx"
+# Keep in sync with lucidx/__init__.py (__version__).
+version = "1.0.5"
+description = "AI-powered image synthesis engine using Stability AI API"
+readme = "README.md"
+requires-python = ">=3.7"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Alex Butler", email = "contact@vritrasec.com" }]
+keywords = [
+    "ai", "artificial-intelligence", "image-generation", "stability-ai",
+    "text-to-image", "image-synthesis", "cli", "art",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "colorama>=0.4.4",
+    "requests>=2.28.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "build>=1.0",
+    "twine>=4.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/MrHacker-X/LucidX"
+Repository = "https://github.com/MrHacker-X/LucidX"
+Issues = "https://github.com/MrHacker-X/LucidX/issues"
+Website = "https://vritrasec.com"
+
+[project.scripts]
+lucidx = "lucidx.cli:main"
+
+[tool.setuptools]
+packages = ["lucidx"]

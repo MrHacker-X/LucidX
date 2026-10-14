@@ -201,7 +201,7 @@ python lucidx.py
    - Launch LucidX: `python lucidx.py`
    - Select option `[2] Configure API Key`
    - Enter your API key when prompted
-   - Key is securely stored in `core/config.py`
+   - Key is securely stored in `~/.config-vritrasecz/lucidx-config.json`
 
 3. **Update Existing Key**:
    - Use the same configuration menu
@@ -296,45 +296,36 @@ LucidX offers 8 distinctive artistic styles:
 
 ```
 LucidX/
-├── lucidx.py                # Application entry point
-├── core/                  # Core modules directory
+├── lucidx.py              # Thin launcher (python lucidx.py)
+├── lucidx/                # Installable package
+│   ├── cli.py             # Menu, args, signal handling
 │   ├── genx.py            # Image generation engine
 │   ├── banr.py            # ASCII art banners
 │   ├── colors.py          # Terminal color definitions
-│   └── modulex.py         # Utility functions and menus
-├── generated_images/      # Output directory (auto-created)
-├── generation_log.txt     # Activity log (auto-created)
-├── last_style.txt         # Temporary style storage (auto-created)
-├── requirements.txt       # Install required python library
-└── README.md              # This documentation
+│   ├── modulex.py         # Utility menus / about / help
+│   └── remote_control.py  # Remote alert module
+├── pyproject.toml         # Packaging / PyPI metadata
+├── requirements.txt
+├── LICENSE
+└── README.md
 ```
 
-### Core Module Details
+### Package Module Details
 
 #### `lucidx.py`
-- Application entry point
-- Main menu navigation
-- Signal handling for graceful interruption
+- Backwards-compatible launcher; delegates to `lucidx.cli:main`
 
-#### `core/genx.py`
-- Image generation engine
-- API communication with Stability AI
-- File management and batch processing
-- Progress tracking and logging
+#### `lucidx/cli.py`
+- Interactive main menu and `--help` / `--version` handling
 
-#### `core/modulex.py`
-- Menu systems and user interactions
-- API key configuration interface
-- Help and documentation displays
+#### `lucidx/genx.py`
+- Image generation engine and Stability AI API communication
 
-#### `core/banr.py`
-- ASCII art banners and logos
-- Session information display
-- Dynamic timestamp generation
+#### `lucidx/modulex.py`
+- API key configuration, about, connect, and help screens
 
-#### `core/colors.py`
-- Terminal color scheme definitions
-- Consistent visual styling across application
+#### `lucidx/banr.py` / `lucidx/colors.py`
+- Banners and terminal color scheme
 
 ## 📂 Output Management
 
