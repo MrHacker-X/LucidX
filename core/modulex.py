@@ -84,7 +84,7 @@ def about_lucidx():
     print(f"{GREEN}│ {WHITE}Generate stunning, high-res images using pure imagination. {GRAY}│")
     print(f"{GRAY}├{'─' * 60}┤")
     print(f"{GREEN}│ {WHITE}• Tool Name     : {VALUE}LucidX                                   {GRAY}│")
-    print(f"{GREEN}│ {WHITE}• Version       : {VALUE}1.0.4                                    {GRAY}│")
+    print(f"{GREEN}│ {WHITE}• Version       : {VALUE}1.0.5                                    {GRAY}│")
     print(f"{GREEN}│ {WHITE}• Engine Mode   : {VALUE}Vision Synthesis Core                    {GRAY}│")
     print(f"{GREEN}│ {WHITE}• Tech Stack    : {VALUE}Stability AI API + Python                {GRAY}│")
     print(f"{GREEN}│ {WHITE}• Platforms     : {VALUE}Linux, Termux (Android)                  {GRAY}│")

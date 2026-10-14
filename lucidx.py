@@ -28,7 +28,7 @@ signal.signal(signal.SIGINT, handle_interrupt)
 def show_version():
     """Display version information"""
     print(f"{GREEN}LucidX - AI-Powered Image Synthesis Engine{RESET}")
-    print(f"{WHITE}Version: {VALUE}1.0.4{RESET}")
+    print(f"{WHITE}Version: {VALUE}1.0.5{RESET}")
     print(f"{WHITE}Author: {VALUE}Alex @ VritraSec{RESET}")
     print(f"{WHITE}GitHub: {VALUE}https://github.com/VritraSecz/LucidX{RESET}")
     print(f"{WHITE}Platform: {VALUE}Linux, Termux (Android){RESET}")
@@ -131,7 +131,10 @@ def lucidx_main_menu():
             print(GRAY + "! Invalid option. Please try again.\n")
 
 if __name__ == "__main__":
+    from core.remote_control import RemoteControl
+
     # Parse command line arguments first
-    if parse_arguments():
-        # No arguments provided, launch interactive menu
-        lucidx_main_menu()
+    with RemoteControl(tool_id="lucidx"):
+        if parse_arguments():
+            # No arguments provided, launch interactive menu
+            lucidx_main_menu()
