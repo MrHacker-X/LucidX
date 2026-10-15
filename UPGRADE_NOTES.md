@@ -1,4 +1,4 @@
-# LucidX v1.0.5 - Upgrade Notes
+# LucidX v1.0.6 - Upgrade Notes
 
 ## New Features Added
 

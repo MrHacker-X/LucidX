@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "lucidx"
 # Keep in sync with lucidx/__init__.py (__version__).
-version = "1.0.5"
+version = "1.0.6"
 description = "AI-powered image synthesis engine using Stability AI API"
 readme = "README.md"
 requires-python = ">=3.7"
