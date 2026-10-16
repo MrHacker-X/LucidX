@@ -26,7 +26,7 @@ signal.signal(signal.SIGINT, handle_interrupt)
 def show_version():
     """Display version information"""
     print(f"{GREEN}LucidX - AI-Powered Image Synthesis Engine{RESET}")
-    print(f"{WHITE}Version: {VALUE}1.0.6{RESET}")
+    print(f"{WHITE}Version: {VALUE}1.1.0{RESET}")
     print(f"{WHITE}Author: {VALUE}Alex @ VritraSec{RESET}")
     print(f"{WHITE}GitHub: {VALUE}https://github.com/MrHacker-X/LucidX{RESET}")
     print(f"{WHITE}Platform: {VALUE}Linux, Termux (Android){RESET}")

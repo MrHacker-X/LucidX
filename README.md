@@ -9,7 +9,7 @@
           ▄█▀▀▀████████████▀▀▀█
          █      ██████████     ▀▄
          █▄   █▀  ▀▀▀▀▀▀  ▀█   ▄█
-          ▀█   █  v.1.0.6 █   █▀
+          ▀█   █  v.1.1.0 █   █▀
 ```
 
 
@@ -22,7 +22,7 @@
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Termux-lightgrey.svg)](#compatibility)
 [![API](https://img.shields.io/badge/API-Stability%20AI-purple.svg)](https://stability.ai/)
-[![Version](https://img.shields.io/badge/version-1.0.6-brightgreen.svg)](#overview)
+[![Version](https://img.shields.io/badge/version-1.1.0-brightgreen.svg)](#overview)
 [![Status](https://img.shields.io/badge/status-stable-success.svg)](#overview)
 [![Maintained](https://img.shields.io/badge/maintained-yes-green.svg)](#contributing)
 [![Stars](https://img.shields.io/github/stars/VritraSecz/LucidX?style=social)](https://github.com/VritraSecz/LucidX)
@@ -34,7 +34,7 @@
 
 </div>
 
-## 🆕 What's New in v1.0.6
+## 🆕 What's New in v1.1.0
 
 <div align="center">
 
@@ -593,7 +593,7 @@ When reporting issues, please include:
 
 <div align="center">
 
-**LucidX v1.0.6** - *"I don't paint dreams. I compute realities yet to be rendered."*
+**LucidX v1.1.0** - *"I don't paint dreams. I compute realities yet to be rendered."*
 
 Made with ❤️ by [VritraSec](https://vritrasec.com)
 
